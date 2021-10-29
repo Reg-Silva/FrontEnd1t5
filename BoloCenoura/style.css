@@ -1,35 +1,35 @@
 * {
-    /* padding: 0;
-    margin: 0; */
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    background-color: #f8f5f2fd;
-    font-family: sans-serif;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-  }
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-color: #f8f5f2fd;
+  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
-  .container{
-    display: flex;
-    width: 70vw;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+}
 
-  ul {
-    background-color: burlywood;
-    
-    
-  }
+.container{
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-  h2 {
-    text-transform: uppercase;
-    font-size: 1rem
-  }
+ul {
+  background-color: burlywood;
   
-  p{
-    text-align: left;
-    max-width: 40rem;
-  }
+  
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1rem
+}
+
+p{
+  text-align: left;
+  max-width: 40rem;
+}

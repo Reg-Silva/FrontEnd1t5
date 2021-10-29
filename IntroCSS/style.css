@@ -1,0 +1,48 @@
+body{
+  background: rgb(197, 188, 188);
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1{
+  color: #0d1b97;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  }
+  
+  .title2{
+  color: rgb(18, 18, 223);
+  font-size: 20px;
+  }
+  
+  .job-title{
+  color: #898dbe;
+  background-color: #1726ad;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  
+  }
+
+ .container{
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  
+ }
+  
+  ul{
+  background-color: #333333;
+  color: rgb (223, 215, 185);
+  padding: 10px;
+  }
+  
+  footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: left;
+  }
+  
+  
+
+ 
