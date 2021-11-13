@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 2000px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  .box {
+    width: 150px;
+    height: 150px;
+    
+    padding: 40px;
+    border: black 5px solid;
+    background-color: rgba(78, 100, 196, 0.856);
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  #mae {
+    background-color: lime;
+    border: 10px black solid;
+    padding: 30px;
+    height: 900px;
+    position: relative;
+  }
+
+  #div2{
+      position: absolute;
+      right: 30px;
+      top: 30px
+      
+  }
+
+  #div3{
+    position: fixed;
+    bottom: 30px;
+    left: 800px; 
+}
