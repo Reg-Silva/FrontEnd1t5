@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0; 
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    background-color: #d9e1e9fd;
+    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+
+  div{
+    width: 100%;
+    height: 1000px;
+    
+  }
+
+
+  .banner{
+    height: 600px; /*altura*/
+    width: 100%; /*largura*/
+    background-image: 
+    url('https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aHRtbCUyRmNzc3xlbnwwfDB8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 30px;
+  }
+
+  h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    color: rgba(7, 7, 241, 0.918);
+    font-size: 60px;
+  }
+
+
+  h2{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    color: rgba(7, 7, 241, 0.918);
+    font-size: 50px;
+  }
+  .botao{
+      border-radius: 10% ;
+      color: rgba(255, 8, 0, 0.87);
+      border: 2px blue solid;
+      align-content: center;
+      height: 40px;
+      width: 90px;
+      background-color: rgba(119, 119, 190, 0.938);
+  }
+
+  
+ p{
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: mediumblue;
+  font-size: 20px;
+ }

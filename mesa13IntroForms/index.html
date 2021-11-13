@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       
+    
+    </header>
+    <h1>Formulário</h1>
+    <form action="/Cadastro" name="Cadastro de usuário"></form>
+    <fieldset action="cadastro de usuário">
+        <legend>Dados Pessoais</legend>
+        <div>
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="Nome" id="Nome" placeholder="Insira seu nome"required>
+        </div>
+       
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email"required>
+        </div>
+
+        <div>
+            <label for="celphone">Celular</label>
+            <input type="number" name="celphone" id="celphone" placeholder="Celular"required>
+        </div>
+
+        <div>
+            <label for="password">Senha</label>
+            <input type="password" name="pws" id="pws" placeholder="Senha"required>
+        </div>
+            <fieldset form="curso selecionado">
+                <legend>Inscrição</legend>
+                <div>
+                    <label for="curso">Curso:</label>
+                    <select name="curso" id="curso">
+                        <option value="#">CTD</option><option value="#">CTD</option> 
+                        <option value="#">Design</option>
+                        <option value="#">Marketing</option>
+                        <option value="#">IA</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="minibio">Minibio de apresentação: </label>
+                    <textarea name="minibio" id="minibio" cols="50" rows="5" placeholder="Insira a minibio"></textarea>
+                  </div>
+            </fieldset>
+
+            <div class="button">
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+
+            </div>
+        
+    </fieldset>
+</body>
+</html>
